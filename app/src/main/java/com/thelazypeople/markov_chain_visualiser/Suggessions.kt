@@ -63,6 +63,12 @@ class Suggessions : AppCompatActivity() {
         }
     }
     fun wordPredictor(prefix:String){
+        for(i in 0..2){
+            buttons[i].text=""
+            buttons[i].isClickable=false
+            buttons2[i].isClickable=false
+            buttons2[i].text=""
+        }
         if(dataKeeper.dictFutureWord[prefix]?.size!=null)
             for(i in 0..dataKeeper.dictFutureWord[prefix]?.size!!-1){
                 buttons2[i].text=(dataKeeper.dictFutureWord[prefix]?.toList()?.sortedBy { it.second }?.get(dataKeeper.dictFutureWord[prefix]?.size!!-i-1)?.first)
@@ -87,7 +93,11 @@ class Suggessions : AppCompatActivity() {
                 //buttons[i].visibility=
                 buttons[i].isClickable=true
                 buttons[i].setOnClickListener {
-                    etprefix.setText(buttons[i].text)
+                    val wordsList=etprefix.text.toString().split(' ','\n')
+                    var unchangedString=""
+                    if (wordsList.size>=1)
+                        unchangedString=wordsList.subList(0,wordsList.size-1).joinToString(" ")
+                    etprefix.setText(unchangedString+" "+buttons[i].text)
                     etprefix.setSelection(etprefix.getText().length);
                 }
             }

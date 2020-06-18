@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             //require(keySize >= 1) { "Key size can't be less than 1" }
             // val str="jump? asked the Scarecrow. Never. He sits day after day in the great fields. They kept on walking, however, and at night the moon came out and shone brightly. So they lay down among the sweet smelling yellow flowers and slept soundly until morning. When it was daylight, the girl bathed her face in her hands, and she set to work in one of the shelves as she passed; it was labelled 'ORANGE MARMALADE', but to her great delight it fitted! Alice opened the door and closer to one another, for the stillness of the empty room was more dreadful"
 
-            val words = str.trimEnd().split(' ',',','.','?','!')
+            val words = str.toLowerCase().trimEnd().split(' ',',','.','?','!','\n')
 
 
             //print(words)
