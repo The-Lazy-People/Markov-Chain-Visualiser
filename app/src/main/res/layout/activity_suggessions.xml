@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,49 +7,76 @@
     android:orientation="vertical"
     tools:context=".Suggessions">
 
+
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SUGGESTIONS"
-        android:layout_marginTop="30dp"
-        android:textSize="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="monospace"
+        android:text="SUGGESTIONS: "
+        android:textColor="#0E0E0E"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginLeft="30dp"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <LinearLayout
         android:id="@+id/screen"
         android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_margin="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rectangle"
         android:orientation="horizontal"
-        android:layout_height="200dp">
-    </LinearLayout>
-
+        android:padding="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"></LinearLayout>
 
     <EditText
         android:id="@+id/etprefix"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="PREFIX"
-        android:text=""
         android:layout_margin="30dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/textborder"
-        android:textSize="20dp"
+        android:hint="PREFIX"
         android:padding="10dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"/>
-
+        android:text=""
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/back"
+        app:layout_constraintEnd_toEndOf="@+id/screen"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/screen"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TRAIN THE MODEL AGAIN"
-        android:padding="10dp"
-        android:background="@drawable/rectangle"
-        android:layout_margin="20dp"
         android:layout_gravity="center"
-        android:textSize="20dp"/>
+        android:layout_margin="20dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/rectangle"
+        android:padding="10dp"
+        android:text="TRAIN THE MODEL AGAIN"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</LinearLayout>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.52" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
