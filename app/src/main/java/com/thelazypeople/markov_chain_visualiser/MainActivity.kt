@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 class MainActivity : AppCompatActivity() {
     var dataKeeper:TrainingDataKeeper= TrainingDataKeeper()
     var str=""
-    var f=0
+    var startTest=0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -35,11 +35,11 @@ class MainActivity : AppCompatActivity() {
             display2.text="SUFFIX"
             show2.movementMethod= ScrollingMovementMethod()
             markov(1, 2)
-            f=1
+            startTest=1
         }
 
         test.setOnClickListener {
-            if(f==0)
+            if(startTest==0)
             {
                 Toast.makeText(this,"Firstly Train the model", Toast.LENGTH_LONG).show()
             }

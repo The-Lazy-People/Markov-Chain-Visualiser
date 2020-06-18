@@ -7,11 +7,31 @@
     android:orientation="vertical"
     tools:context=".Suggessions">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUGGESTIONS"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:layout_height="200dp">
+    </LinearLayout>
+
+
     <EditText
-        android:id="@+id/prefix"
+        android:id="@+id/etprefix"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="PREFIX"
+        android:text=""
         android:layout_margin="30dp"
         android:background="@drawable/textborder"
         android:textSize="20dp"
@@ -20,25 +40,6 @@
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SUGGESTIONS"
-        android:layout_marginTop="30dp"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_marginLeft="10dp"
-        />
-    <TextView
-        android:id="@+id/suggestions"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:padding="10dp"
-        android:text=""
-        android:background="@drawable/rectangle"
-        android:textStyle="bold"
-        android:textSize="20dp"/>
 
     <Button
         android:id="@+id/back"
