@@ -14,6 +14,4 @@ Welcome to Markov Chain Algorithm visualiser!! </br>
 - Markov's Algorithm is a string rewriting system that uses grammar-like rules to operate on strings of symbols.
 
 ## TUTORIAL-SHEET DISPLAY
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-
-![Alt text](C:\Users\AYUSHI\Desktop\1=true "Tut")
+<kbd><img src="Images/1.jpg" width=200></kbd>
