@@ -59,9 +59,11 @@ https://github.com/The-Lazy-People/Markov-Chain-Visualiser.git
 ## Contributing
 
 All kinds of contribution :heart_eyes: are welcomed.
+- <a href="https://github.com/The-Lazy-People/Markov-Chain-Visualiser/pulls"> Make a Pull request </a>
+- <a href="https://github.com/The-Lazy-People/Markov-Chain-Visualiser/issues"> Open Issue </a>
 
 ## Authors
 
-* **Abhishek Yadav** - https://www.linkedin.com/in/abhishek-yadav-aps/ 
-* **Adarsh Singh** - https://www.linkedin.com/in/2001adarshsingh/
-* **Ayushi Doshi** - https://www.linkedin.com/in/ayushi-doshi-731210191/ 
+* <a href="https://www.linkedin.com/in/abhishek-yadav-aps/"> **Abhishek Yadav** </a> 
+* <a href="https://www.linkedin.com/in/2001adarshsingh/"> **Adarsh Singh** </a> 
+* <a href="https://www.linkedin.com/in/ayushi-doshi-731210191/">  **Ayushi Doshi** </a>
