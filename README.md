@@ -17,3 +17,43 @@ Welcome to Markov Chain Algorithm visualiser!! </br>
 <kbd><img src="Images/1.jpeg" width=300></kbd>
 <kbd><img src="Images/2.jpeg" width=300></kbd>
 <kbd><img src="Images/3.jpeg" width=300></kbd>
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Things you need to install this mobile aplication->
+1. Android Mobile
+That's it!
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+You can Download the application using below link-
+https://github.com/The-Lazy-People/Markov-Chain-Visualiser.git
+```
+
+## Built With
+
+* Android Studio
+* Kotlin
+
+## Contributing
+
+All contribution are welcomed.
+
+## Authors
+
+* **Abhishek Yadav** - https://www.linkedin.com/in/abhishek-yadav-aps/ 
+* **Adarsh Singh** - https://www.linkedin.com/in/2001adarshsingh/
+* **Ayushi Doshi** - https://www.linkedin.com/in/ayushi-doshi-731210191/ 
