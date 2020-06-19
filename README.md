@@ -1,5 +1,13 @@
-# Markov-Chain-Visualiser
+# Markov-Chain Visualiser  :eye_speech_bubble:
 Welcome to Markov Chain Algorithm visualiser!! </br>
+
+----
+
+## Sneak Peak towards our creation:
+
+<kbd> ![Markov Visualizer](giphs/giphy.gif)  </kbd>
+
+----
 
 ## All about Markov-Chain-Visualiser
 - It helps in understanding, the working of Markov's Algorithm.
@@ -13,12 +21,12 @@ Welcome to Markov Chain Algorithm visualiser!! </br>
 - Markov's Algorithm is usually used in Data Science but we have converted it in Kotlin to showcase it in our application.
 - Markov's Algorithm is a string rewriting system that uses grammar-like rules to operate on strings of symbols.
 
-## TUTORIAL-SHEET DISPLAY
+## TUTORIAL-SHEET DISPLAY  :eyes:	
 <kbd><img src="Images/1.jpeg" width=300></kbd>
 <kbd><img src="Images/2.jpeg" width=300></kbd>
 <kbd><img src="Images/3.jpeg" width=300></kbd>
 
-## Getting Started
+## Getting Started :+1:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
@@ -43,14 +51,14 @@ You can Download the application using below link-
 https://github.com/The-Lazy-People/Markov-Chain-Visualiser.git
 ```
 
-## Built With
+## Built With :heartbeat:
 
 * Android Studio
 * Kotlin
 
 ## Contributing
 
-All contribution are welcomed.
+All kinds of contribution :heart_eyes: are welcomed.
 
 ## Authors
 
